@@ -2,6 +2,10 @@ import React from 'react';
 
 export default function Main() {
   return (
-    <div>Lord of the Rings</div>
+    <div>
+      <h1>
+        Lord of the Rings
+      </h1>
+    </div>
   );
 }

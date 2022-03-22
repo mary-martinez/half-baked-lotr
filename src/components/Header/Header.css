@@ -1,0 +1,27 @@
+.header {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+li {
+  border: 1px gray solid;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}

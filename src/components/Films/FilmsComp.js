@@ -4,7 +4,7 @@ export default function Films({ films }) {
   // console.log(films);
 
   return (
-    <div>
+    <div className='films-container'>
       {films.map((film) => (
         <div key={film.id} className='film'>
           <h3>{film.title}</h3>
