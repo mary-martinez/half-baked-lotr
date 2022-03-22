@@ -4,6 +4,7 @@ import FilmsComp from '../../components/Films/FilmsComp';
 
 export default function Films() {
   const [films, setFilms] = useState([]);
+
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchFilms();
@@ -11,6 +12,7 @@ export default function Films() {
     };
     fetchData();
   }, []);
+
   return (
     <div>
       <FilmsComp films={films} />

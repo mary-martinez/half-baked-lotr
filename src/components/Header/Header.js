@@ -15,6 +15,16 @@ export default function Header() {
             Films
           </NavLink>
         </li>
+        <li>
+          <NavLink exact to="/characters">
+            Characters
+          </NavLink>
+        </li>
+        <li>
+          <NavLink exact to="/books">
+            Books
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
