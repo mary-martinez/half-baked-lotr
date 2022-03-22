@@ -19,6 +19,7 @@ export default function Books() {
 
   return (
     <div>
+      <p>{error}</p>
       <BooksComp books={books} />
     </div>
   );
